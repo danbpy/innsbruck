@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+html,body,p{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.about{
+	width: 1200px;
+	margin: auto;
+}
+h2{
+	font-size: 40px;
+	color: #2a3d8e;
+}
+h3{
+	font-size: 30px;
+
+}
+.page_header{
+	display: flex;
+	width: 1200px;
+	margin: auto;
+}
+.menu{
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: space-around;
+}
+.menu a{
+	font-size: 28px;
+	color: #2a3d8e;
+}
+.logo{
+	width: 76px;
+}
+.start{
+	display: flex;
+	background-image: url(img/innsbruck1.png);
+	height: 472px;
+	align-items: center;
+}
+h1{
+	width: 1200px;
+	margin: auto;
+	color: white;
+	font-size: 61px;
+}
+.about_buy{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-image: url(img/skier.png);
+	height: 300px;
+	width: 300px;
+	background-size: cover;
+	background-position: center;
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.about_buy p{
+	text-transform: uppercase;
+	font-size: 34px;
+	margin: 0;
+	line-height: 38px;
+}
+.about_buy a{
+	color: #403f3c;
+	font-size: 15px;
+	text-transform: uppercase;
+	background-color: white;
+	opacity: 0.7;
+	padding:5px 10px ;
+}
+figcaption{
+	width: 100%;
+	text-align: center;
+	background-color: #7c7c7c;
+	color: white;
+	font-size: 25px;
+	padding:5px 0 ;
+}
+figure img{
+	width: 100%;
+}
+.galery{
+	width: 1200px;
+	margin: auto;
+}
+
+.img div{
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.img p{
+	display: flex;
+	background-color: #b4d3c4;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	font-size: 34px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.img .reverse{
+
+	flex-direction: row;
+}
+.map{
+	width: 1200px;
+	margin: auto;
+}
+th,td{
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px 20px;
+}
+.text p{
+	margin: 10px 0;
+}
+table{
+	margin: auto;
+	border-collapse:collapse ;
+}
+th{
+	background-color: #202e5c;
+	color: white;
+}
+footer{
+	width: 1200px;
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #b4d3c4;
+	padding: 50px 0;
+
+}
+footer p{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.footer_wrapper{
+	background-color: #b4d3c4;
+}
